@@ -22,7 +22,7 @@ export const aboutData = {
     "When I'm not coding or designing, you can find me participating in hackathons, contributing to open-source projects, or exploring the latest developments in the tech community."
   ],
   education: {
-    institution: "University Name",
+    institution: "Velammal Engineering College",
     degree: "B.S. in Computer Science",
     period: "2020 - 2024"
   }
