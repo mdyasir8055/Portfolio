@@ -7,7 +7,7 @@ export function ServicesSection() {
   const [rotation, setRotation] = useState(65.3513);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.1,
     rootMargin: "-10px 0px",
   });

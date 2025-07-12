@@ -19,7 +19,7 @@ export function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.1,
   });
 

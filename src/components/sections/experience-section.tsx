@@ -91,7 +91,7 @@ export function ExperienceSection() {
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <p className="text-primary uppercase tracking-wider text-sm font-medium mb-2">My Journey</p>
@@ -118,7 +118,7 @@ export function ExperienceSection() {
                   delay: index * 0.15
                 }
               }}
-              viewport={{ once: false, margin: "-50px" }}
+              viewport={{ once: true, margin: "-50px" }}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
@@ -136,7 +136,7 @@ export function ExperienceSection() {
                   className="md:text-right space-y-3 pt-2"
                   initial={{ opacity: 0, x: -50 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ 
                     duration: 0.5, 
                     delay: index * 0.1,
@@ -162,7 +162,7 @@ export function ExperienceSection() {
                   className="space-y-4 mt-2 md:mt-0"
                   initial={{ opacity: 0, x: 50 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ 
                     duration: 0.5, 
                     delay: index * 0.1 + 0.2,
@@ -180,7 +180,7 @@ export function ExperienceSection() {
                       className="flex flex-wrap gap-1.5 sm:gap-2 mt-3 sm:mt-4"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: false }}
+                      viewport={{ once: true }}
                       transition={{ 
                         duration: 0.3, 
                         delay: index * 0.1 + 0.4,
@@ -192,7 +192,7 @@ export function ExperienceSection() {
                           key={skill}
                           initial={{ opacity: 0, scale: 0.8 }}
                           whileInView={{ opacity: 1, scale: 1 }}
-                          viewport={{ once: false }}
+                          viewport={{ once: true }}
                           transition={{ 
                             duration: 0.3, 
                             delay: skillIndex * 0.05 + 0.5
