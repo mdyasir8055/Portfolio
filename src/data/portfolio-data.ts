@@ -10,7 +10,7 @@ export const heroData = {
   splineScene: "https://prod.spline.design/CDWL5hVWel3vGzhO/scene.splinecode",
   contactButtonText: "Contact Me",
   githubButtonText: "GitHub",
-  githubUrl: "https://github.com/yasirmansoori"
+  githubUrl: "https://github.com/mdyasir8055"
 };
 
 // About Section Data
@@ -23,8 +23,8 @@ export const aboutData = {
   ],
   education: {
     institution: "Velammal Engineering College",
-    degree: "B.S. in Computer Science",
-    period: "2020 - 2024"
+    degree: "B.Tech Artificial Intelligence & Data Science",
+    period: "2022 - 2026"
   }
 };
 
