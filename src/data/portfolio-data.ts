@@ -23,8 +23,8 @@ export const aboutData = {
   ],
   education: {
     institution: "Velammal Engineering College",
-    degree: "B.S. in Computer Science",
-    period: "2020 - 2024"
+    degree: "B.Tech Artificial Intelligence & Data Science",
+    period: "2022 - 2026"
   }
 };
 
