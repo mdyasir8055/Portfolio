@@ -10,7 +10,7 @@ export const heroData = {
   splineScene: "https://prod.spline.design/CDWL5hVWel3vGzhO/scene.splinecode",
   contactButtonText: "Contact Me",
   githubButtonText: "GitHub",
-  githubUrl: "https://github.com/yasirmansoori"
+  githubUrl: "https://github.com/mdyasir8055"
 };
 
 // About Section Data
