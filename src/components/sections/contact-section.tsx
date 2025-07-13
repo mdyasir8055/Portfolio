@@ -33,8 +33,8 @@ export function ContactSection() {
     setIsSubmitting(true);
 
     try {
-      // Replace 'YOUR_FORM_ID' with your actual Formspree form ID
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      // Using Formspree as a simple solution that doesn't require server-side code
+      const response = await fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
