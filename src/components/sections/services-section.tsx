@@ -146,7 +146,7 @@ export function ServicesSection() {
               </span>
               {/* Updated star image size */}
               <img
-                src="/images\star.png"
+                src="\images\star.png"
                 alt="Star"
                 className="w-14 h-14" // Increased width and height
               />
