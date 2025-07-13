@@ -179,7 +179,7 @@ export const contactData = {
     socialLinks: [
       { platform: "GitHub", icon: "Github", url: "https://github.com/mdyasir8055" },
       { platform: "LinkedIn", icon: "Linkedin", url: "https://www.linkedin.com/in/mohamed-yasir-a72b25258/" },
-      { platform: "Email", icon: "Mail", url: "mailto:mdyasir8055@gmail.com" }
+      { platform: "Email", icon: "Mail", url: "mailto:mdyasir3011@gmail.com" }
     ]
   },
   formLabels: {

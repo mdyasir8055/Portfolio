@@ -32,16 +32,41 @@ export function ContactSection() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      // Replace 'YOUR_FORM_ID' with your actual Formspree form ID
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          _replyto: formData.email, // This ensures replies go to the sender
+          _subject: `New Portfolio Contact from ${formData.name}`,
+        }),
+      });
 
-    toast({
-      title: contactData.successMessage.title,
-      description: contactData.successMessage.description,
-    });
-
-    setFormData({ name: "", email: "", message: "" });
-    setIsSubmitting(false);
+      if (response.ok) {
+        toast({
+          title: contactData.successMessage.title,
+          description: contactData.successMessage.description,
+        });
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: "Error",
+        description: "Failed to send your message. Please try again later.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
