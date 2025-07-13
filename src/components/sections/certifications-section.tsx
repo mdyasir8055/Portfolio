@@ -9,7 +9,7 @@ export function CertificationsSection() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [showAll, setShowAll] = useState(false);
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.1,
   });
 

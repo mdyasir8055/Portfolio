@@ -7,7 +7,7 @@ export function ServicesSection() {
   const [rotation, setRotation] = useState(65.3513);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.1,
     rootMargin: "-10px 0px",
   });
@@ -59,7 +59,7 @@ export function ServicesSection() {
           }}
         >
           <img    
-            src="src/images/round.png"
+            src="public\images\round.png"
             draggable="false" 
             alt="skills cover rotating image" 
             className="z-10 w-full opacity-65 select-none rounded-full"
@@ -146,7 +146,7 @@ export function ServicesSection() {
               </span>
               {/* Updated star image size */}
               <img
-                src="src/images/star.png"
+                src="public\images\star.png"
                 alt="Star"
                 className="w-14 h-14" // Increased width and height
               />

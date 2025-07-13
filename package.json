@@ -44,6 +44,8 @@
     "@react-three/fiber": "^8.15.19",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.370",
+    "@vercel/node": "^3.0.11",
+    "nodemailer": "^6.9.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
@@ -69,6 +71,7 @@
   "devDependencies": {
     "@eslint/js": "^9.11.1",
     "@types/node": "^22.7.3",
+    "@types/nodemailer": "^6.4.14",
     "@types/react": "^18.3.9",
     "@types/react-dom": "^18.3.0",
     "@types/three": "^0.162.0",

@@ -6,7 +6,7 @@ import { aboutData } from "@/data/portfolio-data";
 
 export function AboutSection() {
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.1,
   });
 
