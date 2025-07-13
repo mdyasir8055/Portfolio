@@ -59,7 +59,7 @@ export function ServicesSection() {
           }}
         >
           <img    
-            src="public\images\round.png"
+            src="\images\round.png"
             draggable="false" 
             alt="skills cover rotating image" 
             className="z-10 w-full opacity-65 select-none rounded-full"
@@ -146,7 +146,7 @@ export function ServicesSection() {
               </span>
               {/* Updated star image size */}
               <img
-                src="public\images\star.png"
+                src="\images\star.png"
                 alt="Star"
                 className="w-14 h-14" // Increased width and height
               />
