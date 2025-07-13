@@ -6,7 +6,7 @@ export const heroData = {
   name: "Mohamed Yasir A",
   title: "Data Engineering Enthusiast | Big Data & Cloud Explorer",
   description: "Turning data into infrastructure with a passion for building scalable pipelines, cloud-native systems, and meaningful insights from complex data.",
-  profileImage: "src/images/Profile-1.jpg",
+  profileImage: "public\images\Profile-1.jpg",
   splineScene: "https://prod.spline.design/CDWL5hVWel3vGzhO/scene.splinecode",
   contactButtonText: "Contact Me",
   githubButtonText: "GitHub",
